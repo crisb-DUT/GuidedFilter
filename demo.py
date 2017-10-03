@@ -1,4 +1,3 @@
-import cv2
 import numpy as np
 from guidedfilter import guidedfilter
 from scipy.io import loadmat
