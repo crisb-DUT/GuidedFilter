@@ -11,13 +11,13 @@ def processOneScene(rgbBsePath,featureBasePath,scene,outputPath,spp = '4spp',eps
 	
 	if spp == '4spp':
 		rgbPath = rgbBsePath + scene[:-4] + '_MC_0004.exr'
-	else if spp == '8spp':
+	elif spp == '8spp':
 		rgbPath = rgbBsePath + scene[:-4] + '_MC_0008.exr'
-	else if spp == '16spp':
+	elif spp == '16spp':
 		rgbPath = rgbBsePath + scene[:-4] + '_MC_0016.exr'
-	else if spp == '32spp':
+	elif spp == '32spp':
 		rgbPath = rgbBsePath + scene[:-4] + '_MC_0032.exr'
-	else if spp == '64spp':
+	elif spp == '64spp':
 		rgbPath = rgbBsePath + scene[:-4] + '_MC_0064.exr'
 
 	featurePath = featureBasePath + scene[:-4] + '.mat'
